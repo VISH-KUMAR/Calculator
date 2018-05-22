@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox accessibleRole="BUTTON" prefHeight="510.0" prefWidth="254.0" stylesheets="@../resources/application.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="200.0" prefWidth="254.0" style="-fx-background-color: #000000;" text="CALCULATOR" textFill="#e4dfdf">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </Label>
+      <JFXButton accessibleText="Standard" prefHeight="200.0" prefWidth="254.0" text="Standard">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </JFXButton>
+      <JFXButton accessibleText="Programmer" prefHeight="200.0" prefWidth="300.0" text="Programmer">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </JFXButton>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="200.0" prefWidth="254.0" style="-fx-background-color: #000000;" text="CONVERTERS" textFill="#e8e2e2">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font></Label>
+      <JFXButton accessibleText="Length" prefHeight="200.0" prefWidth="300.0" text="Length">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font></JFXButton>
+      <JFXButton accessibleText="Temp" prefHeight="200.0" prefWidth="300.0" text="Temperature">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font></JFXButton>
+      <JFXButton accessibleText="Area" prefHeight="200.0" prefWidth="300.0" text="Area">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font></JFXButton>
+      <JFXButton accessibleText="Speed" prefHeight="200.0" prefWidth="300.0" text="Speed">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font></JFXButton>
+      <JFXButton accessibleText="Data" prefHeight="200.0" prefWidth="300.0" text="Data">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font></JFXButton>
+      <JFXButton accessibleText="Angle" prefHeight="200.0" prefWidth="300.0" text="Angle">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font></JFXButton>
+   </children>
+</VBox>

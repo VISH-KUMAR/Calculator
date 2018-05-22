@@ -1,0 +1,21 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.jfx-button{
+	-fx-background-color: #e1e6ef;
+	-fx-text-fill: black;
+}
+.jfx-button:hover{
+	-fx-background-color: #ced2db;
+}
+.label:hover{
+	-fx-background-color: #ced2db;
+	-fx-text-fill:blueviolet ;
+}
+
+.jfx-combobox-content{
+	-fx-background-color:#ced2db;
+		
+}
+#combo1-content{
+	-fx-background-color:#ced2db;
+
+}
